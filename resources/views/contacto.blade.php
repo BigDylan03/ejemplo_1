@@ -26,7 +26,7 @@
                     
             <label>
                 <input required="" placeholder="" type="email" class="input">
-                <span>Email</span>
+                <span>Comentario</span>
             </label> 
                 
             <label for=>
