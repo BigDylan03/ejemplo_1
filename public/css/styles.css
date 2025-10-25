@@ -1,0 +1,153 @@
+/* ===== RESET Y BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'Playfair Display', serif;
+    color: #1e3a2e;
+}
+
+a {
+    color: #2d6e3e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f4c542;
+}
+
+/* ===== HERO ===== */
+.hero {
+    background-color: #ffffff;
+    padding: 100px 20px 80px;
+    text-align: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero .lead {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.btn-verde {
+    background-color: #2d6e3e;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 0;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn-verde:hover {
+    background-color: #f4c542;
+    color: #1e3a2e;
+}
+
+/* ===== SECTIONS ===== */
+.section-card {
+    padding: 80px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.section-card:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.section-card:nth-child(even) {
+    background-color: #fafff5;
+}
+
+.section-card h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2d6e3e;
+}
+
+.icon-box {
+    font-size: 2.5rem;
+    color: #f4c542;
+    margin-bottom: 1rem;
+}
+
+/* ===== FORM ===== */
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 40px 0;
+}
+
+.form .input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    transition: border-color 0.3s ease;
+}
+
+.form .input:focus {
+    border-color: #f4c542;
+    outline: none;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.form .submit {
+    background-color: #2d6e3e;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 0;
+    width: 100%;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.form .submit:hover {
+    background-color: #f4c542;
+    color: #1e3a2e;
+}
+
+.form .signin {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 40px 10px;
+    font-size: 0.9rem;
+    color: #777;
+    background-color: #ffffff;
+    border-top: 1px solid #e6e6e6;
+}
+
+footer span {
+    color: #2d6e3e;
+    font-weight: 600;
+}
